@@ -1,0 +1,244 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mkt Virtual :: Agência de internet e marketing interativo</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<!-- FlexSlider -->
+<script defer src="js/jquery.flexslider-min.js"></script>
+<script>
+jQuery().ready(function(){
+        $('nav li').click(function(){
+                $('nav li').removeClass('selecionado');
+                $(this).addClass('selecionado');
+        });
+});
+
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
+</head>
+<body>
+<section id="geral">
+  <header>
+  	<span id="logotipo">
+    	<a href="http://www.mktvirtual.com.br">
+        	<img src="imagens/mkt_logotipo.png" alt="Mkt Virtual" />
+        </a>
+    </span>
+    <nav>
+    	<ul>
+        	<li class="selecionado"><a href="#">HOME PAGE</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">ABOUT</a></li>
+        </ul>
+    </nav>
+    <div id="search_container">
+        <form>
+          <input type="search" name="txtSearch" placeholder="Search for something..." class="cxSearch">
+          <input type="submit" value="SEARCH">
+        </form>
+    </div>
+  </header>
+  <section id="top">
+    <div class="flexslider">
+      <ul class="slides">
+        <li><img src="imagens/slides/img1.jpg" alt="" /></li>
+        <li><img src="imagens/slides/img2.jpg" alt="" /></li>
+        <li><img src="imagens/slides/img3.jpg" alt="" /></li>
+        <li><img src="imagens/slides/img4.jpg" alt="" /></li>
+      </ul>
+    </div>
+  </section>
+  <section id="lorem_x">
+      <fieldset class="fieldset">
+        <legend align="center" class="text2_shadow">LOREM X</legend>
+        <div id="lorem_x_left">
+        	<h2>Lorem</h2>
+            <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id augue nisl, eu malesuada ipsum.</span> Aliquam eget nisi id lorem luctus viverra. Morbi sed ligula in odio elementum laoreet.</p>
+ 			<p>Ut tincidunt, erat et dictum rhoncus, mi sit nunc mollis orci, at luctus magna tortor sit amet nulla. Mauris mi erat, interdum rhoncus vehicula in, fermentum id dui. Suspendisse odio nibh, condimentum quis gravida ut, dapibus sed ipsum.</p>
+ 			<p>Vivamus a aliquet purus. <span>Sed justo augue, convallis sed fringilla in, rhoncus quis erat.</span> Donec utis sit varius auctor urna pellentesque leo</p>
+        </div>
+        <div id="lorem_x_right">
+        	<h2>Ipsum</h2>
+            <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id augue nisl, eu malesuada ipsum.</span> Aliquam eget nisi id lorem luctus viverra. Morbi sed ligula in odio elementum laoreet.</p>
+ 			<p>Ut tincidunt, erat et dictum rhoncus, mi sit nunc mollis orci, at luctus magna tortor sit amet nulla. Mauris mi erat, interdum rhoncus vehicula in, fermentum id dui. Suspendisse odio nibh, condimentum quis gravida ut, dapibus sed ipsum.</p>
+ 			<p>Vivamus a aliquet purus. <span>Sed justo augue, convallis sed fringilla in, rhoncus quis erat.</span> Donec utis sit varius auctor urna pellentesque leo</p>
+        </div>
+      </fieldset>
+  </section>
+  <section id="lorem_y">
+      <fieldset class="fieldset">
+        <legend align="center" class="text2_shadow">LOREM Y</legend>
+        <div id="lorem_y_img">
+        	<div id="lorem_y_left">
+                <div class="img_content">
+                    <h1>Photoshooting</h1>
+                    <figure>
+                        <img src="imagens/photoshooting.jpg" alt="Photoshooting" title="Photoshooting" />
+                        <figcaption>Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac, vestibulum</figcaption>
+                        <a href="#" class="btn_more_info">More info...</a>
+                    </figure>
+                </div>
+                <div class="img_content margim_left">
+                    <h1>Graphic design</h1>
+                    <figure>
+                        <img src="imagens/graphic_design.jpg" alt="Graphic design" title="Graphic design" />
+                        <figcaption>Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac, vestibulum</figcaption>
+                        <a href="#" class="btn_more_info">More info...</a>
+                    </figure>
+                </div>
+                <div class="img_content margim_left">
+                    <h1>Web design</h1>
+                    <figure>
+                        <img src="imagens/web_design.jpg" alt="Web design" title="Web design" />
+                        <figcaption>Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac, vestibulum</figcaption>
+                        <a href="#" class="btn_more_info">More info...</a>
+                    </figure>
+                </div>
+            </div>
+            
+            <div id="lorem_y_right">
+                <div class="img_content margim_left">
+                    <h1>Logo</h1>
+                    <figure>
+                        <img src="imagens/logo.jpg" alt="Logo" title="Logo" />
+                        <figcaption>Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac, vestibulum</figcaption>
+                        <a href="#" class="btn_more_info">More info...</a>
+                    </figure>
+                </div>
+                <div class="img_content margim_left">
+                    <h1>Print</h1>
+                    <figure>
+                        <img src="imagens/print.jpg" alt="Print" title="Print" />
+                        <figcaption>Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac, vestibulum</figcaption>
+                        <a href="#" class="btn_more_info">More info...</a>
+                    </figure>
+                </div>
+                <div class="img_content margim_left">
+                    <h1>Corporate</h1>
+                    <figure>
+                        <img src="imagens/corporate.jpg" alt="Corporate" title="Corporate" />
+                        <figcaption>Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac, vestibulum</figcaption>
+                        <a href="#" class="btn_more_info">More info...</a>
+                    </figure>
+                </div>
+            </div>
+        </div>
+      </fieldset>
+  </section>
+  <section id="lorem_w">
+      <fieldset class="fieldset">
+        <legend align="center" class="text2_shadow">LOREM W</legend>
+        <div id="lorem_w_left">
+        	<div class="lorem_w_content">
+                <h1>Donec id elit non mi porta gravida at eget metus. Vivamus sagittis</h1>
+                <img src="imagens/lorem_w_img_1.jpg" alt="" />
+                <div class="ico_content">
+                	<div class="left_ico">
+                    	<span>1382</span>
+                    </div>
+                    <div class="right_ico">
+                    	<span>22.07.2012</span>
+                    </div>
+                </div>
+                <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi</p>
+            </div>
+        	<div class="lorem_w_content margim_left2">
+                <h1>Donec id elit non mi porta gravida at eget metus. Vivamus sagittis</h1>
+                <img src="imagens/lorem_w_img_2.jpg" alt="" />
+                <div class="ico_content">
+                	<div class="left_ico">
+                    	<span>1382</span>
+                    </div>
+                    <div class="right_ico">
+                    	<span>22.07.2012</span>
+                    </div>
+                </div>
+                <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi</p>
+            </div>
+        </div>
+        
+        <div id="lorem_w_right">
+        	<div class="lorem_w_content  margim_left2">
+                <h1>Donec id elit non mi porta gravida at eget metus. Vivamus sagittis</h1>
+                <img src="imagens/lorem_w_img_1.jpg" alt="" />
+                <div class="ico_content">
+                	<div class="left_ico">
+                    	<span>1382</span>
+                    </div>
+                    <div class="right_ico">
+                    	<span>22.07.2012</span>
+                    </div>
+                </div>
+                <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi</p>
+            </div>
+        	<div class="lorem_w_content margim_left2">
+                <h1>Donec id elit non mi porta gravida at eget metus. Vivamus sagittis</h1>
+                <img src="imagens/lorem_w_img_2.jpg" alt="" />
+                <div class="ico_content">
+                	<div class="left_ico">
+                    	<span>1382</span>
+                    </div>
+                    <div class="right_ico">
+                    	<span>22.07.2012</span>
+                    </div>
+                </div>
+                <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi</p>
+            </div>        
+        </div>
+      </fieldset>
+  </section>
+  <footer>
+      <div id="footer_content">
+        <div id="footer_left">
+            <h1>ULTIMAS NOTICIAS</h1>
+            <p>
+                <span class="footer_title"><a href="#">Jonathan Doe</a></span>
+                <br>
+                <span class="footer_text">Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <br>
+                <span class="footer_follow"><a href="#">follow</a></span>
+            </p>
+            <p>
+                <span class="footer_title"><a href="#">Jonathan Doe</a></span>
+                <br>
+                <span class="footer_text">Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <br>
+                <span class="footer_follow"><a href="#">follow</a></span>
+            </p>
+            <p>
+                <span class="footer_title"><a href="#">Jonathan Doe</a></span>
+                <br>
+                <span class="footer_text">Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <br>
+                <span class="footer_follow"><a href="#">follow</a></span>
+            </p>
+            <br>
+            <span class="copyright">Copyright © 2012 - All Rights Reserved</span>
+            <img src="imagens/logo_mkt.png" alt="" />
+        </div>
+        <div id="footer_right">
+        	<h1>CONTACT FORM</h1>
+            <form action="" name="frm">
+                <input name="nome" type="text" value="" placeholder="Your name">
+                <input name="email" type="text" value="" placeholder="Your e-mail adress">
+                <textarea name="mensagem" rows="8" cols="18" placeholder="Message"></textarea>
+                <input type="submit" value="Send it!">
+            </form>            
+        </div>
+      </div>
+  </footer>
+</section>
+</body>
+</html>
